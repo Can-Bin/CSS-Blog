@@ -1,0 +1,79 @@
+body{
+    background-color: mediumslateblue;
+    
+}
+
+#container{
+    border: 10px solid aqua;
+    border-radius: 30px;
+    width: 70%;
+    height: 500px;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; div içerisindeki item ları yatayda ortalar */
+    /* align-items: center; div içerisindeki item ları dikeyde ortalar */
+    background-image:linear-gradient(blue, red, purple);
+    
+}
+
+#image{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+    margin-right: 20px;
+    height: 50%;
+    
+
+}
+
+#section{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 500px;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#title{
+    /* border: 2px solid aqua; */
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family:sans-serif ;
+    color:oldlace;
+    font-weight: bolder;
+    
+}
+
+#description{
+    /* border: 2px solid crimson; */
+    width: 100%;
+    height: 80%
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: cyan;
+    margin-top: 10px;
+    overflow:auto;
+    text-align: left;
+    text-indent: 50px;
+    align-items: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+
+
